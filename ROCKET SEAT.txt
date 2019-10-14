@@ -1,0 +1,70 @@
+ROCKET SEAT
+
+Install chocolatey
+Install Nodejs
+Install yarn
+
+### VS Code
+Install Dracula Theme
+Material Icons
+FIRA CODE
+
+Adicionar code . ao path
+Abrir as preferencias (Ctrl + Shift + P)
+Procurar por Install Code e adicionar o comando ao shell do windows.
+
+### Para adicionar dependencias com o Yarn
+No console
+yarn add (nome da dependencia)
+yarn add nodemon -D (-D significar que a dependencia deve ser apenas para dev)
+
+criar pasta src
+criar arquivo server.js
+
+no console 
+
+node src/server.js 
+
+### Para testar APIS
+Insomnia.rest 
+
+
+route param 
+
+### ROTAS -> routes.js
+### server.js -> app.use(routes)
+
+MONGO DB ATLAS
+CRIAR USUARIO
+CLUSTERS (CRIAR) COM NOME DIFERENTE
+1 - Apos criar, ir no Database Access e criar um novo usuario. (User privileges -> Read and write to any database)
+2 - Network Acess -> add ip address -> allow anywhere
+3 - Clusters -> Connect -> Connect application -> (driver) nodejs -> version 3.0 -> pegar a URL. mongodb+srv://root:root@cluster0-cbhiw.mongodb.net/test?retryWrites=true&w=majority
+4 - Adicionar ao projeto o mongoose (yarn add mongoose)
+
+
+Ctrl + D = altera palavras iguais da mesma linha
+http://portquiz.net:27017/
+
+
+Para lidar com arquivos e imagens 
+Necessario adicionar a biblioteca multer
+yarn add multer
+
+### Criar o FRONT END
+yarn create react-app frontend
+yarn start (frontend run) 
+
+### Criar o BACK 
+yarn init -y
+
+## FONTE ROBOTO 
+https://fonts.google.com/specimen/Roboto
+-> SELECT THIS FONT
+>> CLICK "FAMILY SELECTED"
+> CLICK "CUSTOMIZE"
+> REGULAR 400
+> BOLD 700
+>> CLICK "EMBED"
+> CLICK "@IMPORT"
+> importar a url no .css do app
