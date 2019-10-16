@@ -27,6 +27,8 @@ No console
 yarn add (nome da dependencia)
 yarn add nodemon -D (-D significar que a dependencia deve ser apenas para dev)
 yarn add axios (Chamadas aos serviços REST)
+yarn add cors (backend)
+yarn add react-router-dom (frontend)
 
 criar pasta src
 criar arquivo server.js
@@ -83,4 +85,5 @@ Estado... qualquer informação que vamos armazenar ou manipular dentro de um co
 
 await => aguarda a finalização da chamada ao metodo.
 
+adicionar o cors
 
