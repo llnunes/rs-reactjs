@@ -1,3 +1,5 @@
+
+
 ROCKET SEAT
 
 Install chocolatey
@@ -9,6 +11,13 @@ Install Dracula Theme
 Material Icons
 FIRA CODE
 
+###Extensões VS Code:
+Color Highlight
+Gitlens
+Dracula
+Material Icon Theme
+
+
 Adicionar code . ao path
 Abrir as preferencias (Ctrl + Shift + P)
 Procurar por Install Code e adicionar o comando ao shell do windows.
@@ -17,6 +26,7 @@ Procurar por Install Code e adicionar o comando ao shell do windows.
 No console
 yarn add (nome da dependencia)
 yarn add nodemon -D (-D significar que a dependencia deve ser apenas para dev)
+yarn add axios (Chamadas aos serviços REST)
 
 criar pasta src
 criar arquivo server.js
@@ -68,3 +78,9 @@ https://fonts.google.com/specimen/Roboto
 >> CLICK "EMBED"
 > CLICK "@IMPORT"
 > importar a url no .css do app
+
+Estado... qualquer informação que vamos armazenar ou manipular dentro de um componente.
+
+await => aguarda a finalização da chamada ao metodo.
+
+
