@@ -87,3 +87,22 @@ await => aguarda a finalização da chamada ao metodo.
 
 adicionar o cors
 
+
+REACT NATIVE
+
+APLICATIVO expo  -> não precisa instalar bibliotecas nativas JAVA e OBJECTIVE C
+asialy -> 
+
+instalar o 
+npm install -g expo-cli
+
+expo init mobile
+
+cd mobile
+yarn start
+
+genymotion install
+
+para criar as rotas 
+
+yarn add react-navigation
