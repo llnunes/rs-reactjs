@@ -106,3 +106,4 @@ genymotion install
 para criar as rotas 
 
 yarn add react-navigation
+expo install react-native-gesture-handler react-native-reanimated
