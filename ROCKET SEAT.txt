@@ -11,12 +11,27 @@ Install Dracula Theme
 Material Icons
 FIRA CODE
 
+alterar o settings.json
+"workbench.colorTheme": "Dracula",
+"workbench.iconTheme": "material-icon-theme",
+
+"editor.fontFamily": "Fira Code",
+"editor.fontLigatures": true,
+"editor.fontSize": 12,
+"emmet.syntaxProfiles": {
+	"javascript": "jsx",
+},
+"emmet.includeLanguages": {
+	"javascript": "javascriptreact",
+},
+
+
 ###Extensões VS Code:
 Color Highlight
 Gitlens
 Dracula
 Material Icon Theme
-
+Slints VSCode Snippets
 
 Adicionar code . ao path
 Abrir as preferencias (Ctrl + Shift + P)
@@ -108,4 +123,15 @@ para criar as rotas
 yarn add react-navigation
 expo install react-native-gesture-handler react-native-reanimated
 yarn add axios
+
+MongoDB Compass
+
+Atualização em tempo real do backend
+yarn add socket.io
+
+no front end e mobile
+yarn add socket.io-client
+
+banco redis
+
  
